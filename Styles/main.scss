@@ -54,7 +54,7 @@ body {
           border: none;
           outline: none;
           font-size: 1em;
-          color: $secondary-color;
+          color: $link-color;
           background-color: lighten($color: $primary-color, $amount: 2);
 
           &:hover {
