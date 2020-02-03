@@ -8,5 +8,29 @@
     <link rel="stylesheet" href="main.css" />
     <title>Login Page</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Login Page -->
+    <div class="container">
+      <h1>LOG IN</h1>
+      <form action="/" method="GET">
+        <div class="name-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Username" />
+        </div>
+        <div class="password-field">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+        </div>
+        <button class="btn" type="submit">Submit</button>
+        <div id="error"></div>
+      </form>
+      <a href="#" class="forgot-pswd">FORGOT PASSWORD?</a>
+      <a href="#" class="register">CREATE A NEW ACCOUNT</a>
+    </div>
+  </body>
 </html>
