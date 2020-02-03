@@ -1,1 +1,128 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ebf5fc;
+  color: #ebf5fc;
+  min-height: 100vh;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20em;
+  background-color: #131419;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+body .container h1 {
+  color: #c7c7c7;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+body .container form .name-field,
+body .container form .password-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+body .container form .name-field label,
+body .container form .password-field label {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #c7c7c7;
+}
+
+body .container form .name-field input,
+body .container form .password-field input {
+  height: 2.4em;
+  width: 100%;
+  border-radius: 3em;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #ebf5fc;
+  background-color: #17191f;
+}
+
+body .container form .name-field input:hover,
+body .container form .password-field input:hover {
+  -webkit-box-shadow: 0 0 9px 4px #c7c7c7;
+          box-shadow: 0 0 9px 4px #c7c7c7;
+}
+
+body .container form .name-field {
+  margin-top: 4em;
+}
+
+body .container form .password-field {
+  margin-top: 2em;
+}
+
+body .container form .btn {
+  margin: 2em 0 2em 0;
+  height: 2.4em;
+  width: 100%;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-radius: 3em;
+  text-transform: capitalize;
+  color: #006c9c;
+  background-color: #17191f;
+}
+
+body .container form .btn:hover {
+  -webkit-box-shadow: 0 0 6px 4px #006c9c;
+          box-shadow: 0 0 6px 4px #006c9c;
+  text-shadow: 0 0 5px #006c9c;
+}
+
+body .container #error {
+  margin-top: 1em;
+  color: #ff0047;
+}
+
+body .container a {
+  text-decoration: none;
+  color: #ebf5fc;
+  margin-top: 1em;
+  text-transform: capitalize;
+}
+
+body .container a:hover {
+  color: #006c9c;
+  text-shadow: 0 0 3px #006c9c;
+}
+/*# sourceMappingURL=main.css.map */
