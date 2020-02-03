@@ -37,7 +37,10 @@ body {
     }
     form {
       .name-field,
-      .password-field {
+      .password-field,
+      .email-field,
+      .age-field,
+      .birthdate-field {
         display: flex;
         flex-direction: column;
         text-align: left;

@@ -45,7 +45,10 @@ body .container h1 {
 }
 
 body .container form .name-field,
-body .container form .password-field {
+body .container form .password-field,
+body .container form .email-field,
+body .container form .age-field,
+body .container form .birthdate-field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,14 +60,20 @@ body .container form .password-field {
 }
 
 body .container form .name-field label,
-body .container form .password-field label {
+body .container form .password-field label,
+body .container form .email-field label,
+body .container form .age-field label,
+body .container form .birthdate-field label {
   font-size: 1.2em;
   margin-bottom: 0.5em;
   color: #c7c7c7;
 }
 
 body .container form .name-field input,
-body .container form .password-field input {
+body .container form .password-field input,
+body .container form .email-field input,
+body .container form .age-field input,
+body .container form .birthdate-field input {
   height: 2.4em;
   width: 100%;
   border-radius: 3em;
@@ -77,7 +86,10 @@ body .container form .password-field input {
 }
 
 body .container form .name-field input:hover,
-body .container form .password-field input:hover {
+body .container form .password-field input:hover,
+body .container form .email-field input:hover,
+body .container form .age-field input:hover,
+body .container form .birthdate-field input:hover {
   -webkit-box-shadow: 0 0 9px 4px #c7c7c7;
           box-shadow: 0 0 9px 4px #c7c7c7;
 }
