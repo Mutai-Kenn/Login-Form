@@ -29,7 +29,7 @@ body .container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 20em;
+  width: 30em;
   background-color: #131419;
   margin: 0 auto;
   padding: 2rem;
@@ -47,6 +47,7 @@ body .container h1 {
 body .container form .name-field,
 body .container form .password-field,
 body .container form .email-field,
+body .container form .phone-field,
 body .container form .age-field,
 body .container form .birthdate-field {
   display: -webkit-box;
@@ -57,11 +58,13 @@ body .container form .birthdate-field {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: left;
+  margin-top: 1em;
 }
 
 body .container form .name-field label,
 body .container form .password-field label,
 body .container form .email-field label,
+body .container form .phone-field label,
 body .container form .age-field label,
 body .container form .birthdate-field label {
   font-size: 1.2em;
@@ -72,6 +75,7 @@ body .container form .birthdate-field label {
 body .container form .name-field input,
 body .container form .password-field input,
 body .container form .email-field input,
+body .container form .phone-field input,
 body .container form .age-field input,
 body .container form .birthdate-field input {
   height: 2.4em;
@@ -88,6 +92,7 @@ body .container form .birthdate-field input {
 body .container form .name-field input:hover,
 body .container form .password-field input:hover,
 body .container form .email-field input:hover,
+body .container form .phone-field input:hover,
 body .container form .age-field input:hover,
 body .container form .birthdate-field input:hover {
   -webkit-box-shadow: 0 0 9px 4px #c7c7c7;
@@ -95,10 +100,6 @@ body .container form .birthdate-field input:hover {
 }
 
 body .container form .name-field {
-  margin-top: 4em;
-}
-
-body .container form .password-field {
   margin-top: 2em;
 }
 
