@@ -5,11 +5,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-$primary-color: #131419;
-$secondary-color: #ebf5fc;
-$text-color: #c7c7c7;
+$primary-color: #212121;
+$secondary-color: #000;
+$text-color: #fff;
 $warning-color: #ff0047;
-$link-color: #006c9c;
+$link-color: #01b7ee;
+$green-color: #d4fd02;
 
 body {
   display: flex;
@@ -30,7 +31,7 @@ body {
     border-radius: 0.5em;
 
     h1 {
-      color: $text-color;
+      color: $green-color;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 0.2em;
@@ -79,8 +80,8 @@ body {
         border: none;
         border-radius: 3em;
         text-transform: capitalize;
-        color: #006c9c;
-        background-color: lighten($color: $primary-color, $amount: 2);
+        color: $link-color;
+        background-color: lighten($color: $primary-color, $amount: 9);
         &:hover {
           box-shadow: 0 0 6px 4px $link-color;
           text-shadow: 0 0 5px $link-color;

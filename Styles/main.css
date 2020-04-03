@@ -16,8 +16,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ebf5fc;
-  color: #ebf5fc;
+  background-color: #000;
+  color: #000;
   min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body .container {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 30em;
-  background-color: #131419;
+  background-color: #212121;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -38,7 +38,7 @@ body .container {
 }
 
 body .container h1 {
-  color: #c7c7c7;
+  color: #d4fd02;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -69,7 +69,7 @@ body .container form .age-field label,
 body .container form .birthdate-field label {
   font-size: 1.2em;
   margin-bottom: 0.5em;
-  color: #c7c7c7;
+  color: #fff;
 }
 
 body .container form .name-field input,
@@ -85,8 +85,8 @@ body .container form .birthdate-field input {
   border: none;
   outline: none;
   font-size: 1em;
-  color: #006c9c;
-  background-color: #17191f;
+  color: #01b7ee;
+  background-color: #262626;
 }
 
 body .container form .name-field input:hover,
@@ -95,8 +95,8 @@ body .container form .email-field input:hover,
 body .container form .phone-field input:hover,
 body .container form .age-field input:hover,
 body .container form .birthdate-field input:hover {
-  -webkit-box-shadow: 0 0 9px 4px #c7c7c7;
-          box-shadow: 0 0 9px 4px #c7c7c7;
+  -webkit-box-shadow: 0 0 9px 4px #fff;
+          box-shadow: 0 0 9px 4px #fff;
 }
 
 body .container form .name-field {
@@ -112,14 +112,14 @@ body .container form .btn {
   border: none;
   border-radius: 3em;
   text-transform: capitalize;
-  color: #006c9c;
-  background-color: #17191f;
+  color: #01b7ee;
+  background-color: #383838;
 }
 
 body .container form .btn:hover {
-  -webkit-box-shadow: 0 0 6px 4px #006c9c;
-          box-shadow: 0 0 6px 4px #006c9c;
-  text-shadow: 0 0 5px #006c9c;
+  -webkit-box-shadow: 0 0 6px 4px #01b7ee;
+          box-shadow: 0 0 6px 4px #01b7ee;
+  text-shadow: 0 0 5px #01b7ee;
 }
 
 body .container #error {
@@ -129,13 +129,13 @@ body .container #error {
 
 body .container a {
   text-decoration: none;
-  color: #ebf5fc;
+  color: #000;
   margin-top: 1em;
   text-transform: capitalize;
 }
 
 body .container a:hover {
-  color: #006c9c;
-  text-shadow: 0 0 3px #006c9c;
+  color: #01b7ee;
+  text-shadow: 0 0 3px #01b7ee;
 }
 /*# sourceMappingURL=main.css.map */
