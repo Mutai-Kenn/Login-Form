@@ -12,6 +12,8 @@ $warning-color: #ff0047;
 $link-color: #01b7ee;
 $green-color: #d4fd02;
 
+//Body Styles
+
 body {
   display: flex;
   justify-content: center;
@@ -94,7 +96,7 @@ body {
     }
     a {
       text-decoration: none;
-      color: $secondary-color;
+      color: $text-color;
       margin-top: 1em;
       text-transform: capitalize;
       &:hover {
