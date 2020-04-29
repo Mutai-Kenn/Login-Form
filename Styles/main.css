@@ -138,4 +138,19 @@ body .container a:hover {
   color: #01b7ee;
   text-shadow: 0 0 3px #01b7ee;
 }
+
+body .container #strength-meter {
+  height: 0.5em;
+  width: calc(1% * var(--strength, 0));
+  background: #d4fd02;
+  border-radius: 0.2em;
+  margin-top: 1em;
+  -webkit-transition: width 200ms;
+  transition: width 200ms;
+}
+
+body .container #rate {
+  color: #fff;
+  margin-top: 1em;
+}
 /*# sourceMappingURL=main.css.map */

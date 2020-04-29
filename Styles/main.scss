@@ -104,5 +104,17 @@ body {
         text-shadow: 0 0 3px $link-color;
       }
     }
+    #strength-meter {
+      height: 0.5em;
+      width: calc(1% * var(--strength, 0));
+      background: $green-color;
+      border-radius: 0.2em;
+      margin-top: 1em;
+      transition: width 200ms;
+    }
+    #rate {
+      color: $text-color;
+      margin-top: 1em;
+    }
   }
 }
